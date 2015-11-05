@@ -8,10 +8,22 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 html, body  {
-	margin: 0;
+    background-color: #5fa15f;
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
 }
+.inner {
+    width: 50%;
+    margin: 50px auto;
+    padding: 50px;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+}
+
 /* Correct `block` display not defined in IE 8/9.*/
-article,aside,details,figcaption,figure,footer,header,main,nav,section,summary {
+article,aside,details,figcaption,figure,footer,/*header,*/main,nav,section,summary {
   display: block;
 }
 
